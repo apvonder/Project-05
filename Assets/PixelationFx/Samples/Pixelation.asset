@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   skipIterations:
     m_OverrideState: 1
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.88
+    m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 3.24
+    m_Value: 3
   scatter:
-    m_OverrideState: 1
-    m_Value: 0.62
+    m_OverrideState: 0
+    m_Value: 1
   clamp:
     m_OverrideState: 0
     m_Value: 65472
@@ -61,20 +61,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   postExposure:
-    m_OverrideState: 0
-    m_Value: 0.7
+    m_OverrideState: 1
+    m_Value: 1
   contrast:
-    m_OverrideState: 0
-    m_Value: 4
+    m_OverrideState: 1
+    m_Value: 36
   colorFilter:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 4
   saturation:
     m_OverrideState: 1
-    m_Value: 67.4
+    m_Value: 20
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,17 +106,20 @@ MonoBehaviour:
   active: 1
   m_Scale:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.95
   m_Grid:
-    m_OverrideState: 1
-    m_Value: 0.498
-  m_Roundness:
-    m_OverrideState: 1
-    m_Value: 1
-  m_Color:
-    m_OverrideState: 1
-    m_Value: {r: 0, g: 0, b: 0, a: 0}
-    hdr: 0
-  m_Posterize:
     m_OverrideState: 0
-    m_Value: 15
+    m_Value: 0.75
+  m_Roundness:
+    m_OverrideState: 0
+    m_Value: 0
+  m_Color:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 0
+  m_Palette:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  m_Impact:
+    m_OverrideState: 0
+    m_Value: 0
