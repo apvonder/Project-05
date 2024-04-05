@@ -21,10 +21,10 @@ MonoBehaviour:
     m_Value: 0.9
   intensity:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 1.5
   scatter:
-    m_OverrideState: 0
-    m_Value: 0.7
+    m_OverrideState: 1
+    m_Value: 0.807
   clamp:
     m_OverrideState: 0
     m_Value: 65472
@@ -35,8 +35,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   downscale:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   maxIterations:
     m_OverrideState: 0
     m_Value: 6
@@ -60,10 +60,10 @@ MonoBehaviour:
   m_Name: pp volume Profile
   m_EditorClassIdentifier: 
   components:
+  - {fileID: 7458671509986841451}
   - {fileID: -2768246174776455534}
   - {fileID: 3596507433744178172}
   - {fileID: 3766479114156731253}
-  - {fileID: 7458671509986841451}
 --- !u!114 &3596507433744178172
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -79,7 +79,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.537
+    m_Value: 0.293
 --- !u!114 &3766479114156731253
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -103,7 +103,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   saturation:
     m_OverrideState: 1
@@ -122,20 +122,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   _weight:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.1
   _bleed:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 10
   _rocking:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.0202
   _tape:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0.106
   _noise:
-    m_OverrideState: 0
-    m_Value: 0.5
+    m_OverrideState: 1
+    m_Value: 0.883
   _glitch:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 0, b: 0, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0.5223088, b: 1, a: 1}

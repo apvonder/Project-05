@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: VhsFx
   m_EditorClassIdentifier: 
   m_Active: 1
-  _event: 600
+  _event: 500
   _pass: {fileID: 4320422580987978616}
   _blitShader: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
 --- !u!114 &4320422580987978616
